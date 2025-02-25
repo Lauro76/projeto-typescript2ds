@@ -3,9 +3,8 @@ namespace empresa{
         private _nome:string;
         private _anoNasc:number;
 
-        public get Nome(){
+        get Nome(){
             return this._nome;
-
 
         }
 
@@ -25,6 +24,5 @@ namespace empresa{
         public calcularidade(anoAtual:number){
             return anoAtual - this.anoNasc;
         }
-
     }
 }

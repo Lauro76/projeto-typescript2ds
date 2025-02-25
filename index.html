@@ -4,11 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
 </head>
 <body>
-    <h1>Nome: <spam id="nome"></spam></h1>
-    <h2>Idade: <spam id="Idade"></spam></h2>
-    <h2>Ano: <spam id="ano"></spam></h2>
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <label for="">Nome</label>
+                <input type="text" class="form-control" id="campoNome">
+
+                <label for="">ano nascimento:</label>
+                <input type="number" class="form-control" id="campoAno">
+
+                <button class="btn btn-primary mt-3" id="calc">calcular</button>
+                
+                <h1>Nome: <spam id="nome"></spam></h1>
+                <h2>Idade: <spam id="Idade"></spam></h2>
+                <h2>Ano: <spam id="ano"></spam></h2>
+
+            </div>
+        </div>
+    </div>
+   
 
     <script src="./js/pessoa.js"></script>
     <script src="./js/main.jpg"></script>
